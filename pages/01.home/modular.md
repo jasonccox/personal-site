@@ -1,4 +1,6 @@
 ---
+published: false
+
 title: Home
 onpage_menu: true
 body_classes: "modular header-image fullwidth"
