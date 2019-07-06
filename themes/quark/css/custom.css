@@ -1,0 +1,24 @@
+.modular-header {
+  padding-top: 8rem;
+  padding-bottom: 4rem;
+}
+
+.v-center {
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.v-center > :first-child {
+  margin-top: 0;
+}
+
+.v-center > :last-child {
+  margin-bottom: 0;
+}
+
+.h-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
