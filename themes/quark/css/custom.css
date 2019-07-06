@@ -22,3 +22,15 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.padding-s {
+    padding: 1rem;
+}
+
+.padding-m {
+    padding: 2rem;
+}
+
+.padding-l {
+    padding: 4rem;
+}
