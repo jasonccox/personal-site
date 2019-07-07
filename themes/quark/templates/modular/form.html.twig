@@ -1,0 +1,13 @@
+{% set grid_size = theme_var('grid-size') %}
+
+<section class="section modular-form {{ page.header.class}} bg-gray">
+    <section class="container {{ grid_size }}">
+        <div>
+            {{ content|raw }}
+        </div>
+        
+        <div>
+            {% include 'forms/form.html.twig' %}
+        </div>
+    </section>
+</section>

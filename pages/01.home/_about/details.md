@@ -1,6 +1,5 @@
 ---
 title: About
-body_classes: "modular"
 
 content:
     items: '@self.modular'

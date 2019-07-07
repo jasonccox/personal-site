@@ -1,5 +1,6 @@
 ---
 title: Projects
+class: bg-alt
 ---
 
 ## Projects

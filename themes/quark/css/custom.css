@@ -8,16 +8,23 @@
   padding-bottom: 4rem;
 }
 
+.modular-form {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
 .v-center {
   display: block;
   margin-top: auto;
   margin-bottom: auto;
+  height: min-content;
 }
 
 .h-center {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: min-content;
 }
 
 .h-center-text {
@@ -62,4 +69,50 @@
     width: 1.7em; 
     height: 1.7em; 
     padding: 0.08em 0;
+}
+
+.email-btn {
+  position: relative;
+  font-size: 125%;
+  display: inline-block;
+  border-radius: 0.1rem;
+  margin: 2rem 0;
+}
+
+.email-btn:hover {
+  background: #2075de; 
+  color: #e8e9ea;
+}
+
+.email-btn__icon {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 150%;
+  padding: 0.5em 0.25em 0.5em 0.5em;
+}
+
+.email-btn__txt {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0.4em 0.5em 0.5em 0.25em;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.no-underline:hover {
+  text-decoration: none;
+}
+
+.divider {
+    height: 0.1em;
+    width: 50%;
+    background: #d8d9da;
+    display: block;
+    margin: 1em auto;
+}
+
+.bg-alt {
+    background: #ffffff !important;
 }
