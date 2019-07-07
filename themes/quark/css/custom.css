@@ -3,24 +3,37 @@
   padding-bottom: 4rem;
 }
 
+.modular-details {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
 .v-center {
   display: block;
   margin-top: auto;
   margin-bottom: auto;
 }
 
-.v-center > :first-child {
-  margin-top: 0;
-}
-
-.v-center > :last-child {
-  margin-bottom: 0;
-}
-
 .h-center {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.h-center-text {
+    text-align: center;
+}
+
+.center-headings h1, .center-headings h2, .center-headings h3, .center-headings h4, .center-headings h5, .center-headings h6 {
+    text-align: center;
+}
+
+.no-child-v-margins > :first-child {
+    margin-top: 0;
+}
+
+.no-child-v-margins > :last-child {
+    margin-bottom: 0;
 }
 
 .padding-s {
@@ -33,4 +46,20 @@
 
 .padding-l {
     padding: 4rem;
+}
+
+.col-gap-m {
+    padding-left: 2rem;
+}
+
+.bg-blue {
+    background: #3085ee; 
+    color: #f8f9fa;
+}
+
+.detail-icon-size {
+    font-size: 750%; 
+    width: 1.7em; 
+    height: 1.7em; 
+    padding: 0.08em 0;
 }

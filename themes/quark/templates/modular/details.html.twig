@@ -1,0 +1,27 @@
+{% set grid_size = theme_var('grid-size') %}
+
+<link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+
+<section class="section modular-details {{ page.header.class}} bg-gray">
+    <section class="container {{ grid_size }}">
+        {% block heading %}
+            {% for module in page.collection() if module.template == 'modular/heading' %}
+                {{ module.content|raw }}
+            {% endfor %}
+        {% endblock %}
+        
+        {% block items %}
+            <div class="columns {{ page.header.image_align|default('align-right') }}">
+                {% set first = true %}
+                {% for module in page.collection() if module.template != 'modular/heading' %}
+                    <div class="column col-4 col-md-12{% if first != true %} col-gap-m {% endif %} ">
+                        {{ module.content|raw }}
+                    </div>
+                    {% set first = false %}
+                {% endfor %}
+            </div>
+        {% endblock %}
+    </section>
+</section>
+
+

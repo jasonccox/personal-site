@@ -1,0 +1,12 @@
+{% set icon = page.header.fa_icon %}
+
+<div class="modular-detail {{ page.header.class }} bg-gray">
+    {% if icon %}
+        <div class="v-center h-center h-center-text s-circle bg-blue detail-icon-size">
+            <i class="{{ icon }}"></i>
+        </div>
+    {% endif %}
+    <div class="center-headings">
+        {{ content|raw }}
+    </div>
+</div>
