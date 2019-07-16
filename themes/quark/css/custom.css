@@ -47,12 +47,24 @@
     padding: 1rem;
 }
 
+.padding-s-top {
+  padding: 1rem;
+}
+
 .padding-m {
     padding: 2rem;
 }
 
+.padding-m-top {
+  padding: 2rem;
+}
+
 .padding-l {
     padding: 4rem;
+}
+
+.padding-l-top {
+  padding: 4rem;
 }
 
 .col-gap-m {
@@ -68,7 +80,7 @@
     font-size: 750%; 
     width: 1.7em; 
     height: 1.7em; 
-    padding: 0.08em 0;
+    padding: 0.1em 0;
 }
 
 .email-btn {
@@ -111,6 +123,7 @@
     background: #d8d9da;
     display: block;
     margin: 1em auto;
+    border: none;
 }
 
 .bg-alt {

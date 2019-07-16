@@ -4,24 +4,20 @@
 
 <section class="section modular-details {{ page.header.class}} bg-gray">
     <section class="container {{ grid_size }}">
-        {% block heading %}
-            {% for module in page.collection() if module.template == 'modular/heading' %}
-                {{ module.content|raw }}
-            {% endfor %}
-        {% endblock %}
+        {{ content|raw }}
         
-        {% block items %}
-            <div class="columns {{ page.header.image_align|default('align-right') }}">
-                {% set first = true %}
-                {% for module in page.collection() if module.template != 'modular/heading' %}
-                    <div class="column col-4 col-md-12{% if first != true %} col-gap-m {% endif %} ">
-                        {{ module.content|raw }}
+        <div class="columns padding-m-top">
+            {% set first = true %}
+            {% for detail in page.header.details %}
+                <div class="column col-4 col-md-12 {% if first != true %} col-gap-m {% endif %} center-headings">
+                    <div class="v-center h-center h-center-text s-circle bg-blue detail-icon-size">
+                        <i class="{{ detail.icon }}"></i>
                     </div>
-                    {% set first = false %}
-                {% endfor %}
-            </div>
-        {% endblock %}
+                    <h4>{{ detail.title }}</h4>
+                    <div>{{ detail.content }}</div>
+                </div>
+                {% set first = false %}
+            {% endfor %}
+        </div>
     </section>
 </section>
-
-
