@@ -1,1 +1,26 @@
-// todo: do this like features (info in header)
+{% set grid_size = theme_var('grid-size') %}
+
+<section class="section modular-projects {{ page.header.class}} bg-gray">
+    <section class="container {{ grid_size }}">
+        {{ content|raw }}
+        
+        <div class="columns padding-m-top">
+            {% set first = true %}
+            {% for project in page.header.projects %}
+                <a href="{{ project.link }}">
+                    <div class="column col-4 col-md-12 {% if first != true %} col-gap-m {% endif %} center-headings tile" 
+                        style="background-image: url({{ page.media[project.image].url }})">
+
+                        <div class="tile__overlay">
+                            <div class="tile__txt">
+                                <h4>{{ project.title }}</h4>
+                                <div>{{ project.description }}</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                {% set first = false %}
+            {% endfor %}
+        </div>
+    </section>
+</section>
