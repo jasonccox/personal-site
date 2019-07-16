@@ -16,3 +16,4 @@ Whether you have questions about any of my projects, need help with one of your 
 </div>
      
 <div class="divider"></div>
+<div class="padding-s-top"></div>
