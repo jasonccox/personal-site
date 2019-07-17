@@ -1,6 +1,7 @@
 ---
-title: Top
+title: Intro
 class: bg-alt
+img_alt: picture of Jason
 ---
 
 ## Hi, I'm Jason!

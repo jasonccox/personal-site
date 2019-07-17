@@ -9,7 +9,7 @@ content:
         by: default
         dir: asc
         custom:
-            - _header
+            - _intro
             - _about
             - _projects
             - _contact
