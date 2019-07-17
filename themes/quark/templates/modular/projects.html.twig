@@ -7,7 +7,7 @@
         <div class="columns padding-m-top">
             {% set first = true %}
             {% for project in page.header.projects %}
-                <a href="{{ project.link }}">
+                <a href="{{ project.link }}" target="_blank">
                     <div class="column col-4 col-md-12 {% if first != true %} col-gap-m {% endif %} center-headings tile" 
                         style="background-image: url({{ page.media[project.image].url }})">
 
