@@ -5,10 +5,10 @@
     <section class="container {{ grid_size }}">
         <div class="columns {{ page.header.image_align|default('align-right') }}">
             {% if image %}
-            <div class="column col-4 col-md-12">
+            <div class="column col-4 col-sm-12">
                 {{ image.html('', 'header picture', 's-circle padding-s')|raw }}
             </div>
-            <div class="column col-8 col-md-12 v-center no-child-v-margins">
+            <div class="column col-8 col-sm-12 v-center no-child-v-margins">
                 {{ content|raw }}
             </div>
             {% else %}

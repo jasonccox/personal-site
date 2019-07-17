@@ -29,7 +29,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: min-content;
+  width: max-content;
 }
 
 .h-center-text {
@@ -137,34 +137,35 @@
 
 .tile { /* all project tiles */
   position: relative;
-  width: 250px;
-  height: 250px;
-  background-position: 0px 0px;
-  background-size: 250px 250px;
-  border-radius: 5px;
+  width: 12rem;
+  height: 12rem;
+  background-position: 0 0;
+  background-size: 12rem 12rem;
+  border-radius: 0.1rem;
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
+  padding: 0;
 }
 
 .tile:hover {
-  background-position: -10px -10px;
-  background-size: 270px 270px;
+  background-position: -0.5rem -0.5rem;
+  background-size: 13rem 13rem;
 }
 
 .tile__overlay { /* project tile overlay -- shows img normally w/o txt */
   position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  border-radius: 5px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 0.1rem;
   color: rgba(0,0,0,0); /* transparent txt */
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
 }
 
 .tile__overlay:hover { /* project tile overlay -- grays out img, shows txt */
-  background-color: rgba(0, 0, 0, 0.6); /* translucent gray overlay */
+  background-color: rgba(0, 0, 0, 0.8); /* translucent gray overlay */
   color: white;
 }
 
@@ -175,16 +176,24 @@
 .tile__txt h4 { /* title txt on project tiles -- shows on hover */
   font-family: var(--heading-font-family);
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.4em;
   color: rgba(0,0,0,0); /* transparent txt */
 }
 
 .tile__txt { /* txt on project tiles -- shows on hover */
   position: absolute;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  padding: 25px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
   text-align: left;
-  font-size: 14px;
+  font-size: 0.9em;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-content: center;
 }
