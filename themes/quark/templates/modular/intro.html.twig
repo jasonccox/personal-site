@@ -1,6 +1,8 @@
 {% set grid_size = theme_var('grid-size') %}
 {% set image = page.media.images|first %}
 
+<link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+
 <section class="section modular-first modular-intro {{ page.header.class}} bg-gray">
     <section class="container {{ grid_size }}">
         <div class="columns {{ page.header.image_align|default('align-right') }}">
@@ -9,13 +11,18 @@
                 {{ image.html('', page.header.img_alt, 's-circle padding-s')|raw }}
             </div>
             <div class="column col-8 col-sm-12 v-center no-child-v-margins">
-                {{ content|raw }}
-            </div>
             {% else %}
             <div class="column col-12 p-centered">
-                {{ content|raw }}
-            </div>
             {% endif %}
+                {{ content|raw }}
+                <div class="intro-links no-underline">
+                    {% for link in page.header.links %}
+                        <a href="{{ link.link }}" target="_blank">
+                            <i class="{{ link.icon }}"></i>
+                        </a>
+                    {% endfor %}
+                </div>
+            </div>
         </div>
     </section>
 </section>
