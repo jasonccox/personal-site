@@ -7,6 +7,7 @@
 {% set show_onpage_menu = header.onpage_menu == true or header.onpage_menu is null %}
 
 {% block javascripts %}
+    {% do assets.addJs('theme://js/modular.js') %}
     {% if show_onpage_menu %}
         {% do assets.add('theme://js/singlepagenav.min.js') %}
     {% endif %}
@@ -61,4 +62,25 @@
         <div id="{{ macro.pageLinkName(module.menu) }}"></div>
         {{ module.content|raw }}
     {% endfor %}
+{% endblock %}
+
+{% block header_navigation_mobile %}
+    {% if show_onpage_menu %}
+        <ul class="navigation tree treemenu treemenu-root">
+        {% for module in page.collection() if module.header.visible is not same as(false) %}
+            {% set current_module = (module.active or module.activeChild) ? 'active' : '' %}
+            <li><a class="{{ current_module }}" href="#{{ macro.pageLinkName(module.menu) }}">{{ module.menu }}</a></li>
+        {% endfor %}
+        {% for mitem in site.menu %}
+            <li>
+                <a {% if mitem.class %}class="{{ mitem.class }}"{% endif %} href="{{ mitem.url }}">
+                    {% if mitem.icon %}<i class="fa fa-{{ mitem.icon }}"></i>{% endif %}
+                    {{ mitem.text }}
+                </a>
+            </li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        {{  parent() }}
+    {% endif %}
 {% endblock %}

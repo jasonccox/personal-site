@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600&display=swap');
+
+body, h1, h2, h3, h4, h5, h6, div, span, input {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .modular-intro {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -76,10 +82,6 @@
   padding-top: 4rem;
 }
 
-.col-gap-m {
-    padding-left: 2rem;
-}
-
 .bg-blue {
     background: #3085ee; 
     color: #f8f9fa;
@@ -148,11 +150,6 @@
   margin: 0.5rem;
 }
 
-.tile:hover {
-  background-position: -0.5rem -0.5rem;
-  background-size: 13rem 13rem;
-}
-
 .tile__overlay { /* project tile overlay -- shows img normally w/o txt */
   position: absolute;
   top: 0;
@@ -160,25 +157,6 @@
   bottom: 0;
   left: 0;
   border-radius: 0.1rem;
-  color: rgba(0,0,0,0); /* transparent txt */
-  transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-}
-
-.tile__overlay:hover { /* project tile overlay -- grays out img, shows txt */
-  background-color: rgba(0, 0, 0, 0.8); /* translucent gray overlay */
-  color: white;
-}
-
-.tile__overlay:hover h4 {
-  color: white;
-}
-
-.tile__txt h4 { /* title txt on project tiles -- shows on hover */
-  font-family: var(--heading-font-family);
-  font-weight: bold;
-  font-size: 1.4em;
-  color: rgba(0,0,0,0); /* transparent txt */
 }
 
 .tile__txt { /* txt on project tiles -- shows on hover */
@@ -189,6 +167,43 @@
   padding: 1rem;
   text-align: left;
   font-size: 0.9em;
+}
+
+@media (hover: hover) {
+  .tile:hover {
+    background-position: -0.5rem -0.5rem;
+    background-size: 13rem 13rem;
+  }
+
+  .tile__overlay { /* project tile overlay -- shows img normally w/o txt */
+    color: rgba(0,0,0,0); /* transparent txt */
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+
+  .tile__overlay:hover { /* project tile overlay -- grays out img, shows txt */
+    background-color: rgba(0, 0, 0, 0.8); /* translucent gray overlay */
+    color: white;
+  }
+  
+  .tile__overlay:hover h4 {
+    color: white;
+  }
+
+  .tile__txt h4 { /* title txt on project tiles -- shows on hover */
+    color: rgba(0,0,0,0); /* transparent txt */
+  }
+}
+
+@media (hover: none) {
+  .tile__overlay {
+    background-color: rgba(0, 0, 0, 0.8); /* translucent gray overlay */
+    color: white;
+  }
+  
+  .tile__overlay h4 {
+    color: white;
+  }
 }
 
 .justify-center {
