@@ -94,7 +94,7 @@ body, h1, h2, h3, h4, h5, h6, div, span, input {
     padding: 0.1em 0;
 }
 
-.email-btn {
+.contact-btn {
   position: relative;
   font-size: 125%;
   display: inline-block;
@@ -102,22 +102,22 @@ body, h1, h2, h3, h4, h5, h6, div, span, input {
   margin: 2rem 0;
 }
 
-.email-btn:hover {
+.contact-btn:hover {
   background: #2075de; 
   color: #e8e9ea;
 }
 
-.email-btn__icon {
+.contact-btn__icon {
   display: table-cell;
   vertical-align: middle;
   font-size: 150%;
-  padding: 0.5em 0.25em 0.5em 0.5em;
+  padding: 0.4em;
 }
 
-.email-btn__txt {
+.contact-btn__txt {
   display: table-cell;
   vertical-align: middle;
-  padding: 0.4em 0.5em 0.5em 0.25em;
+  padding: 0.3em 0.4em 0.5em 0.4em;
 }
 
 .no-underline, .no-underline:hover, .no-underline a, .no-underline a:hover {

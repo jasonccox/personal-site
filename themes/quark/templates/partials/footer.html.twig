@@ -1,5 +1,22 @@
+{% set copyright = config.theme.copyright %}
+{% set credit = config.theme.footer_credit %}
+
 <section id="footer" class="section bg-gray">
     <section class="container {{ grid_size }}">
-        <p>&copy; 2019 <a href="https://jasoncarloscox.com">Jason Cox</a> | Created with <a href="https://getgrav.org">Grav</a></p>
+        {% if copyright %}
+            <p>&copy; {{ copyright.year }} 
+            {% if copyright.link %} 
+                <a href="{{ copyright.link }}"> {{ copyright.name }} </a>
+            {% else %}
+                {{ copyright.name }} 
+            {% endif %} 
+            
+            {% if credit %}
+                |
+            {% endif %}
+        {% endif %}
+        {% if credit %}
+             Created with <a href="https://getgrav.org">Grav</a></p>
+        {% endif %}
     </section>
 </section>

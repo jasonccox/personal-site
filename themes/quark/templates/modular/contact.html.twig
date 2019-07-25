@@ -1,0 +1,36 @@
+{% set grid_size = theme_var('grid-size') %}
+{% set button = page.header.button %}
+{% set show_form = page.header.show_form %}
+
+<section class="section modular-form {{ page.header.class}} bg-gray">
+    <section class="container {{ grid_size }}">
+        <div>
+            {{ content|raw }}
+        </div>
+
+        <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+
+        {% if button %}
+            <div class="h-center">
+                <a class="contact-btn bg-blue no-underline" href="{{ button.link }}" target="_blank">
+                    {% if button.icon %}
+                        <div class="contact-btn__icon"><i class="{{ button.icon }}"></i></div>
+                    {% endif %}
+                    {% if button.text %}
+                        <div class="contact-btn__txt">{{ button.text }}</div>
+                    {% endif %}
+                </a>
+            </div>
+                
+            {% if show_form %}
+                <div class="divider"></div>
+            {% endif %}
+        {% endif %}
+        
+        {% if show_form %}
+            <div class="padding-s-top">
+                {% include 'forms/form.html.twig' %}
+            </div>
+        {% endif %}
+    </section>
+</section>
