@@ -2,6 +2,10 @@
 title: Projects
 class: bg-alt
 projects: 
+    - title: jsonbody
+      image: jsonbody.png
+      description: Golang middleware for receiving, validating, and sending JSON
+      link: https://gitlab.com/jasonccox/FamilyMap
     - title: Family Map
       image: family-map.jpg
       description: Android app with a Java server that maps geneological data

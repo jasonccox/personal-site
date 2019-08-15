@@ -139,8 +139,8 @@ body, h1, h2, h3, h4, h5, h6, div, span, input {
 
 .tile { /* all project tiles */
   position: relative;
-  width: 12rem;
-  height: 12rem;
+  width: 11rem;
+  height: 11rem;
   background-position: 0 0;
   background-size: 12rem 12rem;
   border-radius: 0.1rem;
@@ -208,6 +208,10 @@ body, h1, h2, h3, h4, h5, h6, div, span, input {
 
 .justify-center {
   justify-content: space-evenly;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .intro-links {

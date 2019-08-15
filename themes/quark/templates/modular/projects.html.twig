@@ -4,7 +4,7 @@
     <section class="container {{ grid_size }}">
         {{ content|raw }}
         
-        <div class="columns col-gapless padding-m-top justify-center">
+        <div class="columns col-gapless padding-m-top justify-start">
             {% for project in page.header.projects %}
                 <a href="{{ project.link }}" target="_blank">
                     <div class="column col-4 center-headings tile" 

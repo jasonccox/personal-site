@@ -7,6 +7,8 @@ links:
       icon: fas fa-envelope
     - link: https://gitlab.com/jasonccox
       icon: fab fa-gitlab
+    - link: https://github.com/jasonccox
+      icon: fab fa-github
     - link: https://www.linkedin.com/in/jasoncarloscox
       icon: fab fa-linkedin-in
     - link: https://twitter.com/jasoncarloscox
