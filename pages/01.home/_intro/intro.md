@@ -5,8 +5,8 @@ img_alt: picture of Jason
 links:
     - link: mailto:contact@jasoncarloscox.com
       icon: fas fa-envelope
-    - link: https://github.com/jasonccox
-      icon: fab fa-github
+    - link: https://gitlab.com/jasonccox
+      icon: fab fa-gitlab
     - link: https://www.linkedin.com/in/jasoncarloscox
       icon: fab fa-linkedin-in
     - link: https://twitter.com/jasoncarloscox
