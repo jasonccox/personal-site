@@ -16,6 +16,8 @@ content:
             
 form:
     name: contact-form
+    action: /#contact-form
+    inline-errors: true
     fields:
         - name: name
           label: Name
@@ -59,6 +61,6 @@ form:
             body: "{% include 'forms/data.txt.twig' %}"
         - message: Thank you for your message! I'll get back to you soon.
         - reset: true
-        - redirect: "#contact"
+        - redirect: "#contact-form"
 ---
 ---
