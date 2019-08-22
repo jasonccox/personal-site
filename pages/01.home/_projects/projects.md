@@ -1,6 +1,5 @@
 ---
 title: Projects
-class: bg-alt
 projects: 
     - title: jsonbody
       image: jsonbody.png
@@ -14,10 +13,11 @@ projects:
       image: config-keeper.png
       description: Bash script for exporting and importing configuration files
       link: https://gitlab.com/jasonccox/config-keeper
-    - title: Wymount Community Site
+    - title: Wymount Website
       image: wymount-community-site.png
       description: Community website built from scratch with HTML, CSS, and JavaScript
       link: https://community.jlcox.com/
+class: bg-alt
 ---
 
 ## Projects

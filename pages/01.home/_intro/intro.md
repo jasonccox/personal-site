@@ -1,6 +1,5 @@
 ---
 title: Intro
-class: bg-alt
 img_alt: picture of Jason
 links:
     - link: mailto:contact@jasoncarloscox.com
@@ -13,6 +12,7 @@ links:
       icon: fab fa-linkedin-in
     - link: https://twitter.com/jasoncarloscox
       icon: fab fa-twitter
+class: bg-alt
 ---
 
 ## Hi, I'm Jason!

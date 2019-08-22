@@ -1,0 +1,11 @@
+copyright:
+  year: 2019
+  name: Jason Cox
+  link: https://jasoncarloscox.com
+footer_credit: true
+custom_logo: 
+  - name: 'logo.png'
+custom_logo_mobile: 
+  - name: 'logo-mobile.png'
+favicon:
+  - name: 'favicon.png'
