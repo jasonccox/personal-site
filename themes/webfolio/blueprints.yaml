@@ -4,12 +4,12 @@ description: A simple theme for creating an online portfolio
 icon: rebel
 author:
   name: Jason Cox
-  email: me@jasoncarloscox.com
+  email: contact@jasoncarloscox.com
 homepage: https://gitlab.com/jasonccox/grav-theme-webfolio
 demo: https://jasoncarloscox.com
 keywords: grav, theme, portfolio
 bugs: https://gitlab.com/jasonccox/grav-theme-webfolio/issues
-readme: https://gitlab.com/jasonccox/grav-theme-webfolio/blob/develop/README.md
+readme: https://gitlab.com/jasonccox/grav-theme-webfolio/blob/master/README.md
 license: MIT
 
 dependencies:
