@@ -13,4 +13,4 @@ details:
 ---
 
 ## About Me
-Ever since I was a kid, I've loved solving problems and creating new things. I learned to code on my own at home, took some programming classes in high school, and am now pursuing a computer science degree while working part-time as a full-stack developer at [Qualtrics](https://qualtrics.com). 
+Ever since I was a kid, I've loved solving problems and creating new things. I learned to code on my own at home, took some programming classes in high school, and am now pursuing a computer science degree while working part-time as a full-stack developer. 
