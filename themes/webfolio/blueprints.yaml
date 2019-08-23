@@ -39,6 +39,28 @@ form:
       accept:
         - image/*
 
+    favicon:
+      type: file
+      label: Favicon
+      size: large
+      destination: 'theme://images'
+      multiple: false
+      markdown: true
+      description: Must be a .png file
+      accept:
+        - image/png
+
+    footer_credit:
+      type: toggle
+      label: Show Credit in Footer
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.YES
+        0: PLUGIN_ADMIN.NO
+      validate:
+        type: bool
+
     copyright:
       type: fieldset
       title: Copyright
@@ -54,25 +76,3 @@ form:
           type: text
           label: Link Target URL
           description: The copyright-holder's name will be a link with this target URL
-
-    footer_credit:
-      type: toggle
-      label: Show Credit in Footer
-      highlight: 1
-      default: 1
-      options:
-        1: PLUGIN_ADMIN.YES
-        0: PLUGIN_ADMIN.NO
-      validate:
-        type: bool
-
-    favicon:
-      type: file
-      label: Favicon
-      size: large
-      destination: 'theme://images'
-      multiple: false
-      markdown: true
-      description: Must be a .png file
-      accept:
-        - image/png
