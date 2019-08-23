@@ -12,6 +12,9 @@ bugs: https://gitlab.com/jasonccox/grav-theme-webfolio/issues
 readme: https://gitlab.com/jasonccox/grav-theme-webfolio/blob/develop/README.md
 license: MIT
 
+dependencies:
+  - { name: grav, version: '>=1.6.0' }
+
 form:
   validation: loose
   fields:
@@ -64,9 +67,15 @@ form:
           description: The copyright-holder's name will be a link with this target URL
 
     footer_credit:
-      type: checkbox
+      type: toggle
       label: Show Credit in Footer
-      default: true
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.YES
+        0: PLUGIN_ADMIN.NO
+      validate:
+        type: bool
 
     favicon:
       type: file

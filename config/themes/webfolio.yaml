@@ -1,11 +1,26 @@
-copyright:
-  year: 2019
-  name: Jason Cox
-  link: https://jasoncarloscox.com
+enabled: true
+dropdown:
+  enabled: true
 footer_credit: true
-custom_logo: 
-  - name: 'logo.png'
-custom_logo_mobile: 
-  - name: 'logo-mobile.png'
+copyright:
+  year: '2019'
+  name: 'Jason Cox'
+  link: 'https://jasoncarloscox.com'
 favicon:
-  - name: 'favicon.png'
+  user/themes/webfolio/images/favicon.png:
+    name: favicon.png
+    type: image/png
+    size: 25792
+    path: user/themes/webfolio/images/favicon.png
+custom_logo_mobile:
+  user/themes/webfolio/images/logo-mobile.png:
+    name: logo-mobile.png
+    type: image/png
+    size: 490261
+    path: user/themes/webfolio/images/logo-mobile.png
+custom_logo:
+  user/themes/webfolio/images/logo.png:
+    name: logo.png
+    type: image/png
+    size: 495075
+    path: user/themes/webfolio/images/logo.png
