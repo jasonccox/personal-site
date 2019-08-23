@@ -1,6 +1,4 @@
 enabled: true
-dropdown:
-  enabled: true
 footer_credit: true
 copyright:
   year: '2019'
