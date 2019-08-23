@@ -14,11 +14,11 @@
 }
 
 .contact__btn__icon {
-	font-size: $font-size-m;
+	font-size: $font-size-s;
 }
 
 .contact__btn__txt {
-	font-size: $font-size-s;
+	font-size: $font-size-xs;
 	margin-left: 0;
 	margin-right: 0;
 	word-break: break-all;
@@ -29,6 +29,16 @@
 }
 
 @media only screen and (min-width: $screen-xs) {
+	.contact__btn__icon {
+		font-size: $font-size-m;
+	}
+	
+	.contact__btn__txt {
+		font-size: $font-size-s;
+	}
+}
+
+@media only screen and (min-width: $screen-s) {
 	.contact__btn__icon {
 		font-size: $font-size-l;
 	}
