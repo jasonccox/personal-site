@@ -5,6 +5,10 @@ projects:
       image: jsonbody.png
       description: Golang middleware for receiving, validating, and sending JSON
       link: https://gitlab.com/jasonccox/jsonbody
+    - title: Webfolio Theme
+      image: webfolio.jpg
+      description: Theme (powers this site!) for Grav CMS using HTML, Sass, JS, Twig
+      link: https://gitlab.com/jasonccox/grav-theme-webfolio
     - title: Family Map
       image: family-map.jpg
       description: Android app with a Java server that maps geneological data
@@ -15,7 +19,7 @@ projects:
       link: https://gitlab.com/jasonccox/config-keeper
     - title: Wymount Website
       image: wymount-community-site.png
-      description: Community website built from scratch with HTML, CSS, and JavaScript
+      description: Community website built from scratch with HTML, CSS, JS
       link: https://community.jlcox.com/
 class: bg-alt
 ---
