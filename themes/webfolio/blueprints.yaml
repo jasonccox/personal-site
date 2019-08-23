@@ -5,11 +5,11 @@ icon: rebel
 author:
   name: Jason Cox
   email: me@jasoncarloscox.com
-homepage: https://github.com/jasonccox/grav-theme-webfolio
-demo: http://demo.yoursite.com
-keywords: grav, theme, etc
-bugs: https://github.com/jasonccox/grav-theme-webfolio/issues
-readme: https://github.com/jasonccox/grav-theme-webfolio/blob/develop/README.md
+homepage: https://gitlab.com/jasonccox/grav-theme-webfolio
+demo: https://jasoncarloscox.com
+keywords: grav, theme, portfolio
+bugs: https://gitlab.com/jasonccox/grav-theme-webfolio/issues
+readme: https://gitlab.com/jasonccox/grav-theme-webfolio/blob/develop/README.md
 license: MIT
 
 form:
@@ -77,7 +77,4 @@ form:
       markdown: true
       description: Must be a .png file
       accept:
-        - image/*
-
-
-
+        - image/png

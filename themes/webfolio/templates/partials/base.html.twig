@@ -16,6 +16,7 @@
 {% endblock head%}
 
 {% block stylesheets %}
+    {% do assets.addCss('theme://css/normalize.css', 98) %}
     {% do assets.addCss('theme://css-compiled/theme.min.css', 98) %}
     {% do assets.addCss('theme://css/custom.css', 98) %}
 {% endblock %}
@@ -48,14 +49,12 @@
 
 {% block body %}
     <section id="body">
-        <div class="wrapper padding">
         {% block content %}{% endblock %}
-        </div>
     </section>
 {% endblock %}
 
 {% block footer %}
-    <div class="footer">
+    <footer class="footer">
         {% if config.theme.copyright %}
             <span class="copyright">
                 &copy; {{ config.theme.copyright.year }} 
@@ -72,7 +71,7 @@
             Created with the Webfolio theme on <a href="http://getgrav.org">Grav</a>
         </span>
         {% endif %}
-    </div>
+    </footer>
 {% endblock %}
 
 <button class="nav--mobile__toggle" id="nav-mobile-toggle">

@@ -45,7 +45,4 @@ jQuery(document).ready(function($){
         $("body").removeClass("mobile-nav-open"); 
         $("#nav-mobile-toggle").removeClass("active");
     });
-
-    // Tree Menu
-    $(".tree").treemenu({delay:300});
 });

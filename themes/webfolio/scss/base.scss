@@ -13,10 +13,20 @@ body {
 	font-size: $font-size-s;
 	font-weight: $font-weight-normal;
 	margin: 0;
-	padding: 0;
+	padding: 0 0 (2rem + 2*$font-size-s) 0; // needs to match footer height
+	min-height: 100%;
+	position: absolute;
+	top: 0;
+	width: 100%;
 
 	&.mobile-nav-open {
 		overflow-y: hidden;
+	}
+}
+
+@media only screen and (min-width: $screen-s) {
+	body {
+		padding: 0 0 (2rem + $font-size-s) 0;
 	}
 }
 
@@ -87,6 +97,10 @@ input, textarea {
 
 	.bg-alt & {
 		border-color: darken($color-bg-alt, 20%);
+	}
+
+	&:focus {
+		border-color: $color-accent;
 	}
 }
 
