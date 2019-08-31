@@ -1,0 +1,3 @@
+[submodule "themes/webfolio"]
+	path = themes/webfolio
+	url = git@gitlab.com:jasonccox/grav-theme-webfolio.git

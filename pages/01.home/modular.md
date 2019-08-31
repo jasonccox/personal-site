@@ -1,6 +1,6 @@
 ---
 title: Home
-onpage_menu: true
+modules_in_menu: true
 
 content:
     items: '@self.modular'
@@ -61,5 +61,4 @@ form:
         - message: Thank you for your message! I'll get back to you soon.
         - reset: true
         - redirect: "#contact-form"
----
 ---
