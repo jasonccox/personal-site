@@ -1,6 +1,7 @@
 ---
 title: Home
 modules_in_menu: true
+single_page_menu: true
 
 content:
     items: '@self.modular'
