@@ -1,5 +1,5 @@
 absolute_urls: false
-timezone: ''
+timezone: 'America/Denver'
 default_locale: null
 param_sep: ':'
 wrapped_site: false
