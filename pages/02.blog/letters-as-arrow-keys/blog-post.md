@@ -2,6 +2,10 @@
 title: Using Letters As Arrow Keys on Linux and Mac
 image: keyboard.jpg
 publish_date: 2019-09-16 16:40 -6
+date: 2019-09-16 16:40 -6
+routes:
+  aliases:
+    - '/blog/2019-09-16-letters-as-arrow-keys'
 ---
 
 This summer I found myself sitting at a computer writing code for 40 hours a week for the first time, and I started looking for ways to make my computer work more comfortable and efficient. After a bit of research, I figured out how to remap a modifier key (e.g., Ctrl, Alt, etc.) plus i/j/k/l to the arrow keys.
