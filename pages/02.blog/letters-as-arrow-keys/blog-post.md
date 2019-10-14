@@ -33,7 +33,7 @@ The Plasma desktop environment is insanely configurable (that's why I love it!),
 
 ## MacOS
 
-Unfortunately MacOS isn't all that configurable without some help from third-party applications. To remap keys, I used [Karabiner Elements](https://pqrs.org/osx/karabiner/).
+Unfortunately MacOS isn't all that configurable without some help from third-party applications. To remap keys, I used [Karabiner Elements](https://pqrs.org/osx/karabiner/?target=_blank).
 
 1. Open Karabiner Elements
 3. Under the *Complex Modifications* tab, click *Add rule* and import a rule from the Internet
