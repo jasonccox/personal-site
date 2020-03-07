@@ -2,10 +2,6 @@ enabled: true
 dropdown:
   enabled: true
 footer_credit: true
-copyright:
-  year: '2019'
-  name: 'Jason Cox'
-  link: 'https://jasoncarloscox.com'
 custom_logo:
   user/images/webfolio/logo.png:
     name: logo.png
