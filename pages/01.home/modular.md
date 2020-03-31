@@ -40,6 +40,12 @@ form:
           type: textarea
           validate:
             required: true
+
+        - name: no-ads
+          label: This message is not an advertisement, offer to optimize Jason's site, etc.
+          type: checkbox
+          validate:
+            required: true
         
 
     buttons:
