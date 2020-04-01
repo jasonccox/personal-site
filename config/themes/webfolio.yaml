@@ -25,9 +25,6 @@ footer_links:
     link: 'mailto:contact@jasoncarloscox.com'
     icon: 'fas fa-envelope'
   -
-    link: 'https://gitlab.com/jasonccox'
-    icon: 'fab fa-gitlab'
-  -
     link: 'https://github.com/jasonccox'
     icon: 'fab fa-github'
   -

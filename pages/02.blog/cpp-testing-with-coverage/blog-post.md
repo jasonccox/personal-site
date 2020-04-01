@@ -25,7 +25,7 @@ void add(const T& value) {
 };
 ```
 
-> If you want to actually compile and run this example, you'll need the `LinkedList.h` (which contains the `add` method) and `Node.h` files from [this repo](https://gitlab.com/jasonccox/cpp-linked-list?target=_blank).
+> If you want to actually compile and run this example, you'll need the `LinkedList.h` (which contains the `add` method) and `Node.h` files from [this repo](https://github.com/jasonccox/cpp-linked-list?target=_blank).
 
 The `add` method is fairly simple and needs two basic tests: calling `add` on an empty list, and calling `add` on a non-empty list. Let's take a look at how to write those tests with Catch2.
 
