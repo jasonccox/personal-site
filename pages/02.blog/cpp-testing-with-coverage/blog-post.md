@@ -2,6 +2,7 @@
 title: Basic C++ Unit Testing with Coverage Using Catch2 and Gcov
 image: test-output.png
 publish_date: 2019-10-14 12:55 -6
+date: 2019-10-14 12:55 -6
 ---
 
 I recently wrote a basic C++ linked list implementation to sharpen my skills, and I quickly found myself in need of a good way to test my code. I found Catch2, a simple C++ testing framework, and then used Gcov to ensure that my tests were covering all the code. By no means am I an expert, but I'll go ahead and share what I've learned so far.
