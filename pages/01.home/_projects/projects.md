@@ -21,10 +21,6 @@ projects:
       image: family-map.jpg
       description: Android app with a Java server that maps geneological data
       link: https://github.com/jasonccox/FamilyMap
-    - title: config-keeper
-      image: config-keeper.png
-      description: Bash script for exporting and importing configuration files
-      link: https://github.com/jasonccox/config-keeper
     - title: Wymount Website
       image: wymount-community-site.png
       description: Community website built from scratch with HTML, CSS, JS
