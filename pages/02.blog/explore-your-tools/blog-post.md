@@ -1,5 +1,5 @@
 ---
-title: Explore Your Tools: How I Unknowingly Re-implemented `tar`
+title: Explore Your Tools: How I Unknowingly Re-implemented tar
 image: tools.jpg
 publish_date: 2020-04-10 21:55 -4
 date: 2020-04-10 21:55 -4
@@ -11,7 +11,7 @@ Sometime last year I wrote a relatively simple script for backing up and restori
 
 Sometime last year I wrote [`config-keeper`](https://github.com/jasonccox/config-keeper), a relatively simple script for backing up and restoring deeply-nested configuration files. It's nothing crazy -- just 150 lines of code -- but I spent several hours on it, and it worked. I even took the time to write up a nice readme in hopes that other people would find it useful.
 
-Fast-forward to just last night. I was reading [The Linux Command Line](http://linuxcommand.org/tlcl.php) -- a great book and available as a free PDF, by the way -- and learning about backup tools like `gzip`, `tar`, and `rsync`. I had used `tar` before, but only for really simple tasks like archiving an entire directory to submit a school assignment.
+Fast-forward to just last night. I was reading [The Linux Command Line](http://linuxcommand.org/tlcl.php) -- a great book that's available as a free PDF, by the way -- and learning about backup tools like `gzip`, `tar`, and `rsync`. I had used `tar` before, but only for really simple tasks like archiving an entire directory to submit a school assignment.
 
 Then, as I was reading about more of `tar`'s capabilities, I had a realization: `tar` is already capable of everything `config-keeper` does, plus more!
 
