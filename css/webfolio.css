@@ -1,0 +1,10 @@
+.project-page #body {
+    padding: 2rem;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-page #body h1 {
+    text-align: center;
+}
