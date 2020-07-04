@@ -1,0 +1,12 @@
+# ./.tmuxinator.yml
+
+name: website
+root: ./
+
+windows:
+  - editor: vim
+  - misc: bash
+  - server:
+      root: ../
+      panes:
+        - php -S localhost:8000 system/router.php
