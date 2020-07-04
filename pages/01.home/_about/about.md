@@ -3,14 +3,14 @@ title: About
 details:
     - title: Quality Code
       icon: fas fa-code
-      content: A solution that breaks or that can't be understood isn't much of a solution. Motivated by a passion for doing things right, I write code that is performant, easy-to-read, and well-tested. 
+      content: I care about more than just correctness; my code isn't ready to go until it's organized, optimized, and documented.
     - title: Clear Communication
       icon: fas fa-comments
-      content: One of the toughest aspects of software development is keeping everyone on the same page. My experience working with diverse teams and my time studying business management have refined my ability to communicate with clients and fellow developers.
-    - title: Creative Solutions
-      icon: fas fa-lightbulb
-      content: No two problems are the same. I love exploring my options and finding the solution that's best for each unique problem, not just the easiest or most comfortable solution.
+      content: I've refined my ability to communicate with clients and developers thanks to my exerience working with teams and my time studying business management.
+    - title: Open Source
+      icon: fas fa-handshake
+      content: I'm a firm believer that collaboration and sharing produce the best results, including in software, so I release my code as open source whenever possible.
 ---
 
 ## About Me
-Ever since I was a kid, I've loved solving problems and creating new things. I learned to code on my own at home, took some programming classes in high school, and am now pursuing a computer science degree while working part-time as a full-stack developer. 
+Ever since I was a kid, I've loved solving problems and creating new things. I learned to code on my own at home, took some programming classes in high school, and am now pursuing a computer science degree while helping with research in usable security and working part-time as a full-stack web developer.
