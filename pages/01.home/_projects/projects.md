@@ -1,5 +1,7 @@
 ---
 title: Projects
+projects_per_page: 5
+show_more_txt: Show more
 projects:
     - title: os345
       image: os345.png
