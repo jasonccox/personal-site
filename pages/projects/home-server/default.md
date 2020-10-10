@@ -18,8 +18,6 @@ My server runs Debian 10, but its various services are all containerized and man
 - [Traefik](https://hub.docker.com/_/traefik) - reverse proxy
 - [restic-rclone](https://hub.docker.com/repository/docker/jasonccox/restic-rclone) - automated backups to cloud storage (custom image)
 
-If you're interested in more of the details, take a look at my [setup scripts](https://github.com/jasonccox/home-server-scripts).
-
 ## Storage
 
 The server has two 1 TB hard drives, which act as mirrors under the ZFS filesystem.
